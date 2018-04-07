@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>ФИЛП - лекции Tinkoff по Scala </title>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BigZDev - разработка Java, Android, Bootstrap">
+    <meta name="author" content="Zaharov <BigZ> Andrei">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">   
+    <link href="css/main.css" rel="stylesheet">   
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Scala</h1>
+            <h3>Tinkoff &amp; ФИЛП &amp; МатМех</h3>
+            <br>
+            <a href="#services" class="btn btn-dark btn-lg">Лекции</a>
+        </div>
+    </header>
+
+
+    <!-- Services -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                   <div class="row text-center">
+                       <h2>Лекции</h2>
+                   </div>
+                    
+                    <hr class="small">
+                    <div class="row row-conformity">
+                       
+                        <div class="col">
+                            <div class="list-group text-center">
+    <a href="https://drive.google.com/file/d/10oP__5JNR3ArhZK5O8_5xaJ8a9YwM_17/view" class="list-group-item list-group-item-info">Введение в Scala</a>
+    <a href="https://drive.google.com/file/d/1CSA53QgiQ1M711NXw3YmK4zOehxy8Y53/view" class="list-group-item list-group-item-info">Базовые типы и управляющие структуры</a>
+    <a href="https://drive.google.com/file/d/1N2djRFY_jwC8xjDU0ucT5zL35NTC4D7V/view" class="list-group-item list-group-item-info">Объекты, классы, трейты</a>
+    <a href="https://drive.google.com/open?id=1nmVC_rygCRpnxcBxreq8MUCnQO4iNY-9" class="list-group-item list-group-item-info">Функции</a>
+    <a href="https://drive.google.com/open?id=1Z5Pg6ajigiFTvW8VVCuXtR9VPcqjkTMW" class="list-group-item list-group-item-info">Тестирование</a>
+    <a href="https://drive.google.com/open?id=14R1Li8vzyavO_PAGS3BVdrLbOyclt27w" class="list-group-item list-group-item-info">Case-классы, pattern matching, Экстракторы, sealed trait</a>
+    <a href="https://docs.google.com/presentation/d/12GQ4Wym3prEIJkPu3JsaD5qsj6Cz1-k5TA83paqzJsQ/edit" class="list-group-item list-group-item-info">for { comprehension }</a>
+  </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                 <div class="row text-center">
+                       <h2>Разное</h2>
+                   </div>                    
+                    <hr class="small">
+                    <div class="col">
+                            <div class="list-group text-center">
+    <a href="https://docs.google.com/document/d/1nSiTtqYkgGKCR5yjqVmOGfi7YyjiZckVTwtP22y46dE/edit#" class="list-group-item list-group-item-info">Практическое задание по курсу ФИЛП(Scala) </a>
+    <a href="https://docs.google.com/spreadsheets/d/1tI8905JMlvffcwtNyEsvHFVPQJUokXSLRdk7QBKtMUc/edit#gid=0" class="list-group-item list-group-item-info">Команды Scala </a>
+    
+  </div>
+                        </div>
+            </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    
+
+    <!-- Footer -->
+    <footer id = "footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Contacts</strong></h4>
+                    
+                    <p><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:mrmorvell@gmail.com">mrmorvell@gmail.com</a>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://t.me/ZakharovAV" target="_blank" title="Telegram"><i class="fa fa-telegram fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/mrmorvell" target="_blank" title="Twitter"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://vk.com/BigZDev" target="_blank" title="VK"><i class="fa fa-vk fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://rocketbank.ru/andrey-zakharov" target="_blank" title="Rocket Bank"><i class="fa fa-rocket fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <br>
+                    <p>Created by <a href="#" title="Andrei Zakharov">BigZDev</a></p>
+                    <p class="text-muted">Copyright &copy;  2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>   
+        
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
